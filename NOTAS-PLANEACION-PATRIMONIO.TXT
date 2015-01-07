@@ -1,0 +1,28 @@
+
+Lugares donde se encuentra tmpAfectacionXBien.
+
+
+AppServer/clsAfectacionContableManager.cls	25 coincidencias
+AppServer/pSCPCreaBienArmonizadoXGrupoFamilia.p	4 coincidencias
+AppServer/pSCPCreaBitacoraAfectacionDetalle.p	8 coincidencias
+AppServer/pSCPGeneraParametrosAltaSinActivo.p	4 coincidencias
+AppServer/pSCPReclasificacionCONAC.p	3 coincidencias
+
+
+Lugares donde se encuentra BitacoraIncorporacion.
+AppServer/clsIncorporacionManager.cls	65 coincidencias
+AppServer/clsSituacionEspecial_Afectacion.cls	7 coincidencias
+AppServer/pSCPFinalizaProceso.p	7 coincidencias
+
+Para liberacion final.
+
+	wSCPMainBienes.w
+	wSCPSolicitudes.w
+	wSCPReporteCuentasContablesXFechas.w
+	
+	pSCPImportaBitacoraAfectacion.p -APP
+	
+	Tipo 
+	/* 36 ... orden */
+	
+	39 ... activo
